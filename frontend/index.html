@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinâmica do PIB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Bem-vindo à Dinâmica do PIB</h1>
+        <p>Conecte-se ao jogo usando o QR Code abaixo:</p>
+        <div id="qr-code">
+            <!-- QR Code será gerado dinamicamente aqui -->
+        </div>
+        <div id="player-setup">
+            <input type="text" id="nickname" placeholder="Escolha seu nick">
+            <select id="country-select">
+                <option value="country1">País 1</option>
+                <option value="country2">País 2</option>
+                <option value="country3">País 3</option>
+                <option value="country4">País 4</option>
+            </select>
+            <button id="start-game">Iniciar Jogo</button>
+        </div>
+        <div id="game-area" style="display: none;">
+            <!-- Área do jogo será exibida aqui -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
