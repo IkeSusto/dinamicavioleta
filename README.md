@@ -1,46 +1,44 @@
-# Dynamic Game Project
+# Frontend Dynamic Game Project
 
-## Overview
-The Dynamic Game Project is an interactive educational game designed to demonstrate the limits and possibilities of GDP (Gross Domestic Product) through a fun and engaging experience. The project consists of a backend server built with Python and a frontend interface developed using HTML, CSS, and JavaScript.
+This document provides an overview of the frontend part of the dynamic game project, including setup instructions and usage details.
 
 ## Project Structure
-```
-dynamic-game-project
-├── backend
-│   ├── app.py
-│   ├── requirements.txt
-│   └── README.md
-├── frontend
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   └── README.md
-├── README.md
-```
+
+The frontend consists of the following files:
+
+- **index.html**: The main HTML file that serves as the entry point for the web application.
+- **styles.css**: The stylesheet that defines the visual appearance of the web application.
+- **script.js**: The JavaScript file that handles user interactions and communicates with the backend.
 
 ## Setup Instructions
 
-### Backend
-1. Navigate to the `backend` directory.
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the backend server:
-   ```
-   python app.py
+1. **Clone the Repository**: 
+   Clone the project repository from GitHub to your local machine.
+
+   ```bash
+   git clone <repository-url>
    ```
 
-### Frontend
-1. Open the `frontend/index.html` file in a web browser to access the game interface.
+2. **Navigate to the Frontend Directory**:
+   Change into the frontend directory.
+
+   ```bash
+   cd dynamic-game-project/frontend
+   ```
+
+3. **Open the HTML File**:
+   Open `index.html` in your web browser to view the application.
 
 ## Usage
-- Players will connect to the game via their mobile devices using a QR code displayed on the main screen.
-- Players will choose a nickname and select a country to represent.
-- The game consists of multiple rounds where players will produce cookies, manage resources, and compete against each other.
+
+- The application allows users to connect via their mobile devices using a QR code displayed on the main page.
+- Users can select a country and participate in the game by following the on-screen instructions.
+
+## Development
+
+- To make changes to the frontend, edit the `index.html`, `styles.css`, and `script.js` files as needed.
+- Ensure to test the application in different browsers for compatibility.
 
 ## Contributing
-Contributions to the project are welcome! Please feel free to submit issues or pull requests.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Contributions to the frontend are welcome! Please submit a pull request with your changes.
